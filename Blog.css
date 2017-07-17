@@ -37,10 +37,20 @@ a{
 }
 .content{
   border: 1px solid black;
-  display: block;
-  width:100%
-  height: 200px;
-  padding: 14px 16px;
+}
+#feedback{
+  margin: 0px;
+  padding: 0px;
+}
+#submit{
   background-color: green;
-  margin: 2px;
+}
+#label{
+  margin: 0px;
+  padding-top: 10px;
+  text-align: left;
+  color: green;
+}
+p{
+  font-size: 20px;
 }

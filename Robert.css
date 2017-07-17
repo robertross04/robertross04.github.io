@@ -5,14 +5,14 @@ body{
 }
 h1{
     font-weight: bolder;
-    color: red;
+    color: green;
     text-align: center;
     padding: 0px;
     border: 5px solid black;
     margin: 0px;
 }
 h2{
-    color: red;
+    color: green;
     margin:0px;
     border: 5px;
     border-style: outset;
@@ -52,11 +52,4 @@ form{
 }
 div.class{
   width: 100%
-}
-#feedback{
-  margin: 0px;
-  padding: 0px;
-}
-#submit{
-  color: red;
 }
