@@ -6,6 +6,7 @@
     <link rel = "stylesheet" href = "Robert.css"></link>
   </head>
   <body>
+    <div class = "content">
     <h1>Robert Ross</h1>
     <img src="Allatoona_Valedictorian_RobertRoss.jpg" width="227" height="200" alt="Photo of Robert Ross"/>
     <img src="Allatoona_Valedictorian_RobertRoss.jpg" width="227" height="200" alt="Photo of Robert Ross"/>
@@ -14,12 +15,12 @@
     <img src="Allatoona_Valedictorian_RobertRoss.jpg" width="227" height="200" alt="Photo of Robert Ross"/>
     <img src="Allatoona_Valedictorian_RobertRoss.jpg" width="227" height="200" alt="Photo of Robert Ross"/>
     <h2>Summary</h2>
-      <p>I live in Acworth, Georgia, and I am participating in Google CSSI.
+      <p class = 'style'>I live in Acworth, Georgia, and I am participating in Google CSSI.
       I like mathematics, economics, and computer science. I am also a tap dancer.</p>
     <h2>Hometown</h2>
-      <p>Acworth, Georgia</p>
+      <p class ='style'>Acworth, Georgia</p>
     <h2>University</h2>
-      <p>Stanford University</p>
+      <p class = 'style'>Stanford University</p>
     <h2>Other Profiles</h2>
     <ul>
         <li><a href="https://www.facebook.com/robert.ross.507027">Facebook</a></li>
@@ -35,13 +36,18 @@
     <h2>More</h2>
       <ul>
           <li><a href = "Blog.html">Blog Posts</a></li>
-          <li><a href = "#">Table Of Contents</a></li>
+          <li><a href = "Home.html">Homepage</a></li>
       </ul>
       <form>
         <label><h2>Comments</h2></label>
-        <input text = "type"  style="width: 300px; height: 25px;" id = "comments" value = "Type comments here">
-        <input type = "button" id="submit" value="Submit"/>
+        <input type = "text" style="width: 300px; height: 25px; display:block; margin:1px;" id = "username" placeholder= "Enter name">
+        <textarea id = 'comments' style="width: 500px; height: 250px;" placeholder = "Enter comment"></textarea>
+        <input type = "button" id="submit" value="Submit">
+        <h3 id = "greet"></h3>
+        <p id = 'feedback'></p>
       </form>
-
+    </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src ="Robert.js"></script>
   </body>
 </html>
